@@ -58,7 +58,6 @@ class Wikipedia(commands.Cog):
 
         embeds = []
         for idx, entry in enumerate(data):
-            # print(entry)
             embed = discord.Embed(color=await ctx.embed_color())
             embed.title = string.Template(TITLE_FORMAT).safe_substitute(
                 name=entry["data"]["titles"]["normalized"],
