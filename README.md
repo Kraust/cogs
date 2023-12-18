@@ -1,2 +1,2 @@
 # cogs
-Red Discord Bot Cogs
+Red Discord Bot Cogs Repository

@@ -1,0 +1,16 @@
+{
+  "name": "Wikipedia",
+  "short": "Wikipedia search",
+  "description": "Wikipedia search",
+  "end_user_data_statement": "",
+  "requirements": [],
+  "tags": [
+      "wikipedia",
+      "search",
+      "wiki"
+  ],
+  "min_bot_version": "3.5.0",
+  "hidden": false,
+  "disabled": false,
+  "type": "COG"
+}
