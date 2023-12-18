@@ -67,7 +67,8 @@ class Wikipedia(commands.Cog):
                 extract=entry["data"]["extract"],
             )
             embed.set_footer(text=f"Result {idx+1} of {len(data)}")
-            embed.set_thumbnail(url=entry["data"]["thumbnail"]["source"])
+            if entry["data"].get("thumbnail", None):
+                embed.set_thumbnail(url=entry["data"]["thumbnail"]["source"])
             embeds.append(embed)
 
         if len(embeds):
